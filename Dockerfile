@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:7
 MAINTAINER Fran Garcia <fgarciarico@gmail.com>
 
 RUN wget http://dl.bintray.com/vertx/downloads/vert.x-2.1.2.tar.gz && \
