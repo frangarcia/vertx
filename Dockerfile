@@ -1,4 +1,4 @@
-FROM isuper/java-oracle:jdk_8
+FROM cogniteev/oracle-java:java8
 MAINTAINER Fran Garcia <fgarciarico@gmail.com>
 
 RUN wget http://dl.bintray.com/vertx/downloads/vert.x-2.1.5.tar.gz && \
