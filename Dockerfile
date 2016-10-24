@@ -1,4 +1,4 @@
-FROM ibmjava:8-jre
+FROM isuper/java-oracle:jdk_8
 MAINTAINER Fran Garcia <fgarciarico@gmail.com>
 
 RUN wget http://dl.bintray.com/vertx/downloads/vert.x-2.1.5.tar.gz && \
