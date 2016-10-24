@@ -1,4 +1,4 @@
-FROM java:8
+FROM ibmjava:8-jre
 MAINTAINER Fran Garcia <fgarciarico@gmail.com>
 
 RUN wget http://dl.bintray.com/vertx/downloads/vert.x-2.1.5.tar.gz && \
