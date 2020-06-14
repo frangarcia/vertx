@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:8-alpine
 MAINTAINER Fran Garcia <fgarciarico@gmail.com>
 
 RUN wget http://dl.bintray.com/vertx/downloads/vert.x-3.8.4-full.tar.gz && \
